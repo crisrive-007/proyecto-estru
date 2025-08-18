@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1538</width>
+    <height>772</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="widget_26" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>147</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QWidget" name="widget_27" native="true"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_28" native="true"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget" native="true"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_2" native="true"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Valor:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_3" native="true"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Posición:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_29" native="true"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_30" native="true"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="botonInsertar">
+       <property name="text">
+        <string>Insertar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="botonEliminar">
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="botonBuscar">
+       <property name="text">
+        <string>Buscar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="botonReiniciar">
+       <property name="text">
+        <string>Reiniciar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_31" native="true"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_32" native="true"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_33" native="true"/>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_34" native="true"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>0</y>
+      <width>1391</width>
+      <height>721</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1538</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionNuevo"/>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionGuardar"/>
+   </widget>
+   <widget class="QMenu" name="menuEstructuras">
+    <property name="title">
+     <string>Estructuras</string>
+    </property>
+    <addaction name="actionLista_Simple"/>
+    <addaction name="actionLista_Doble"/>
+    <addaction name="actionStack"/>
+    <addaction name="actionQueue"/>
+    <addaction name="action_rbol_BST"/>
+    <addaction name="action_rbol_AVL"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuEstructuras"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNuevo">
+   <property name="text">
+    <string>Nuevo</string>
+   </property>
+  </action>
+  <action name="actionAbrir">
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="actionLista_Simple">
+   <property name="text">
+    <string>Lista Simple</string>
+   </property>
+  </action>
+  <action name="actionLista_Doble">
+   <property name="text">
+    <string>Lista Doble</string>
+   </property>
+  </action>
+  <action name="actionStack">
+   <property name="text">
+    <string>Stack</string>
+   </property>
+  </action>
+  <action name="actionQueue">
+   <property name="text">
+    <string>Queue</string>
+   </property>
+  </action>
+  <action name="action_rbol_BST">
+   <property name="text">
+    <string>Árbol BST</string>
+   </property>
+  </action>
+  <action name="action_rbol_AVL">
+   <property name="text">
+    <string>Árbol AVL</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
