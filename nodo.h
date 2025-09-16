@@ -18,4 +18,20 @@ public:
     nodoDLL(int valor);
 };
 
+class nodoStack {
+public:
+    int valor;
+    nodoStack* next;
+    nodoStack(int valor);
+};
+
+class nodoArbol {
+public:
+    int valor;
+    nodoArbol* left;
+    nodoArbol* right;
+    int height;
+    nodoArbol(int valor);
+};
+
 #endif // NODO_H

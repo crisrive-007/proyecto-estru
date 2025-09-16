@@ -30,6 +30,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         listaenlazadadoble.h listaenlazadadoble.cpp
         estructuras.h
         dibujarlistas.h dibujarlistas.cpp
+        stack.h stack.cpp
+        queue.h queue.cpp
+        arbolbst.h arbolbst.cpp
+        arbolavl.h arbolavl.cpp
 
 
 

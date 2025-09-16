@@ -130,14 +130,6 @@
      <height>25</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuArchivo">
-    <property name="title">
-     <string>Archivo</string>
-    </property>
-    <addaction name="actionNuevo"/>
-    <addaction name="actionAbrir"/>
-    <addaction name="actionGuardar"/>
-   </widget>
    <widget class="QMenu" name="menuEstructuras">
     <property name="title">
      <string>Estructuras</string>
@@ -148,6 +140,14 @@
     <addaction name="actionQueue"/>
     <addaction name="action_rbol_BST"/>
     <addaction name="action_rbol_AVL"/>
+   </widget>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionNuevo_2"/>
+    <addaction name="actionGuardar_2"/>
+    <addaction name="actionCargar"/>
    </widget>
    <addaction name="menuArchivo"/>
    <addaction name="menuEstructuras"/>
@@ -196,6 +196,21 @@
   <action name="action_rbol_AVL">
    <property name="text">
     <string>Árbol AVL</string>
+   </property>
+  </action>
+  <action name="actionNuevo_2">
+   <property name="text">
+    <string>Nuevo</string>
+   </property>
+  </action>
+  <action name="actionGuardar_2">
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </action>
+  <action name="actionCargar">
+   <property name="text">
+    <string>Cargar</string>
    </property>
   </action>
  </widget>
